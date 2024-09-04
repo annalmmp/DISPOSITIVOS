@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+    <TextView
+        android:id="@+id/textDouble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_conten"
+        android:text="Double: "
+
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/textString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textDouble"
+        android:layout_marginTop="60dp"
+        android:text="String: " />
+
+    <TextView
+        android:id="@+id/textInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Int: "
+        android:layout_below="@id/textString"
+        android:layout_marginTop="70dp"/>
+
+    <TextView
+        android:id="@+id/textFloat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Float: "
+        android:layout_below="@id/textInt"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
